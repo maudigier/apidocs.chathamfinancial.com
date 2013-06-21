@@ -1,4 +1,4 @@
-GET /report/{JobId}
+GET /report/{id}
 =======
 
 Returns the contents of the report file or the status of the report if it is not ready.

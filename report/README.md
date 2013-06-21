@@ -25,7 +25,6 @@ The status code of the response indicates the status of the request.
 | 500           | Report generation failed. Try again or contact support if you continue to receive this response.
 
 <br />
-<br />
 
 POST /report/portfolio
 =======
@@ -60,25 +59,9 @@ curl https://api.chathamfinancial.com/report/portfolio
 
 The status code of the response indicates the status of the request.
 
-<table cellpadding="8" border="1">
-	<tr>
-		<th align="left" nowrap>Status Code</th>
-		<th align="left" nowrap>Description</th>
-	</tr>
-	<tr>
-		<td>200</td>
-		<td>The report job has been successfully queued</td>
-	</tr>
-	<tr>
-		<td>400</td>
-		<td>Parameter validation failed. Check the response body for details.</td>
-	</tr>
-	<tr>
-		<td>401</td>
-		<td>Missing, invalid, expired or revoked access token.</td>
-	</tr>
-	<tr>
-		<td>500</td>
-		<td>Failed to queue the report job. Try again, or contact Chatham support if you continue to receive this response.</td>
-	</tr>
-</table>
+|  Status Code  | Description
+| :-----------: | -----------
+| 200           | Report is ready.
+| 400           | Parameter validation failed. Check the response body for details.
+| 401           | Missing, invalid, expired or revoked access token.
+| 500           | Report generation failed. Try again or contact support if you continue to receive this response.

@@ -1,12 +1,11 @@
 GET /report/{JobId}
 =======
--------
 
 Returns the contents of the report file or the status of the report if it is not ready.
 
 ##### Example Request
 
-```curl
+```bash
 curl https://api.chathamfinancial.com/report/12345 
 	-H "Authorization: Bearer XXX" 
 	-H "Accept: application/json"
@@ -49,13 +48,12 @@ The status code of the response indicates the status of the request.
 
 POST /report/portfolio
 =======
--------
 
 Queues a new report job for your entire portfolio of transactions.
 
 ##### Example Request
 
-```curl
+```bash
 curl https://api.chathamfinancial.com/report/portfolio 
 	-X POST
 	-H "Authorization: Bearer XXX" 

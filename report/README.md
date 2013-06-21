@@ -3,7 +3,7 @@ GET /report/{id}
 
 Returns the contents of the report file or the status of the report if it is not ready.
 
-##### Example Request
+#### Example Request
 
 ```bash
 curl https://api.chathamfinancial.com/report/12345 
@@ -11,7 +11,7 @@ curl https://api.chathamfinancial.com/report/12345
 	-H "Accept: application/json"
 ```
 
-##### Example Response
+#### Example Response
 
 The status code of the response indicates the status of the request.
 
@@ -51,7 +51,7 @@ POST /report/portfolio
 
 Queues a new report job for your entire portfolio of transactions.
 
-##### Example Request
+#### Example Request
 
 ```bash
 curl https://api.chathamfinancial.com/report/portfolio 
@@ -62,7 +62,14 @@ curl https://api.chathamfinancial.com/report/portfolio
 	-d '{ "asofdate": "2013-01-31", "fromdate": "2013-01-01", "todate": "2013-01-31", "datagroupings": 1 }'
 ```
 
-##### Example Response
+| Parameter     | Type      |  Required  | Description                      |
+| ------------- | --------- | :--------: | -------------------------------- |
+| AsOfDate      | `string`  | Yes        | A date in the format YYYY-MM-DD. |
+| FromDate      | `string`  | Yes        | A date in the format YYYY-MM-DD. |
+| ToDate        | `string`  | Yes        | A date in the format YYYY-MM-DD. |
+| DataGroupings | `integer` | Yes        | A bitmask of one or more data groups. 1 - Economics, 2 - Schedule, 3 - Forecasting, 4 - Valuations |
+
+#### Example Response
 
 ```json
 {

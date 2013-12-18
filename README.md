@@ -19,12 +19,12 @@
 ## API
 -----
 
-##JSON Routes
+###JSON Routes
 --------
 * [Transactions](report/transactions)
 * [Payments](report/payments)
 
-##File Routes
+###File Routes
 --------
 * [Default](report/default.md)
 * [Portfolio](report/portfolio)

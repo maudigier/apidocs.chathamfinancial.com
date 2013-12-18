@@ -21,7 +21,7 @@
 
 ##JSON Routes
 --------
-* [Transaction](report/transactions)
+* [Transactions](report/transactions)
 * [Payments](report/payments)
 
 ##File Routes

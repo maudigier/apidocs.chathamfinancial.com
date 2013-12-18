@@ -19,8 +19,14 @@
 ## API
 -----
 
-### [Reports](reports)
-* [payments](reports/payments)
-* [transactions](reports/transactions)
+##JSON Routes
+--------
+* [Transaction](report/transactions)
+* [Payments](report/payments)
 
------
+##File Routes
+--------
+* [Default](report/default.md)
+* [Portfolio](report/portfolio)
+
+

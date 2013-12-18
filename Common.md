@@ -1,4 +1,4 @@
-!Common API Components
+Common API Components
 =======================
 
 ## Required Components

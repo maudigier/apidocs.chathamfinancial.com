@@ -1,4 +1,4 @@
-Common API Components
+# ![Compass Logo](https://raw.github.com/Chatham/apidocs.chathamfinancial.com/master/ChathamCompass-150x150.png) Common API Components
 =======================
 
 ## Required Components

@@ -5,7 +5,7 @@ Returns reporting data pertaining to payments
 
 ### Common API Components
 
-[See Common API Components](../../blob/master/Common.md)
+[See Common API Components](../../../../blob/master/Common.md)
 
 ### Example Request
 

@@ -71,7 +71,7 @@ Accept-Encoding: gzip,deflate
 Supported Compression:
 
 * `gzip`
-* `defalte`
+* `deflate`
 
 See [RFC 2616 Section 14.3](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.3) for more information.
 
